@@ -17,7 +17,7 @@ Generate a set of Twitter API keys and download the tweets using the following c
 ```
 python download_tweets.py -i ./data/raw_data.csv -o ./data/tweets.jsonl --consumerkey XXX --consumersecret XXX --accesstoken XXX  --accesssecret XXX
 ```
-This will generate all vaccine related tweets which have been determined to be from England (using the geocode-local repository) between July 2017 and October 2019 (n=187183).
+This will download all vaccine related tweets which have been determined to be from England (using the [geocode-local](https://github.com/mar-muel/local-geocode) repository) between July 2017 and October 2019 (n=187183).
 
 ## Generate figure
 The figure can be generated using the command
@@ -31,10 +31,12 @@ The model which was used to predict the sentiment can be found [here](https://cr
 For more information about how this model was generated (including the used training data), please refer to the paper
 
 ```
-Müller, Martin M., and Marcel Salathé. "Crowdbreaks: Tracking Health Trends Using Public Social Media Data and Crowdsourcing." Frontiers in public health 7 (2019).
+Müller, Martin M., and Marcel Salathé. 
+Crowdbreaks: Tracking Health Trends Using Public Social Media Data and Crowdsourcing.
+Frontiers in public health 7 (2019).
 ```
 The corresponding data/code can be found [here](https://github.com/salathegroup/crowdbreaks-paper).
 
 
 ## Questions
-If you have further questions to how this figure was generated please write to martin.muller@epfl.ch (or info@crowdbreaks.org)
+If you have further questions, please write to martin.muller@epfl.ch (or info@crowdbreaks.org)
