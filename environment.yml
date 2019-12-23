@@ -1,0 +1,9 @@
+name: vaccine-sentiment-england
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - twython
+  - matplotlib
+  - python=3.6
+  - pandas

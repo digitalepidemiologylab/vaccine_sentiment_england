@@ -1,0 +1,6 @@
+# Ignore everything in this directory
+*
+# Except this file
+!.gitignore
+!raw_data.csv
+!sentiment_vs_time_plot_data.pkl
